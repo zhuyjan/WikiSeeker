@@ -2,7 +2,7 @@
   <img width="400" height="300" src="figures/WikiSeeker_Logo.png">
 </p>
 
-# WikiSeeker: Rethinking the Role of Vision-Language Models in Knowledge-Based Visual Question Answering (ACL 2026)
+# WikiSeeker: Rethinking the Role of Vision-Language Models in Knowledge-Based Visual Question Answering
 
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![GitHub Stars](https://img.shields.io/github/stars/zhuyjan/WikiSeeker?style=social)](https://github.com/zhuyjan/WikiSeeker/stargazers)
