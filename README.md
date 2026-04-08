@@ -4,8 +4,10 @@
 
 # WikiSeeker: Rethinking the Role of Vision-Language Models in Knowledge-Based Visual Question Answering
 
-[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![arXiv](https://img.shields.io/badge/arXiv-2604.05818-B21A1B)](https://arxiv.org/abs/2604.05818)
+[![CVPR 2026](https://img.shields.io/badge/ACL%202026-Findings-blue)](https://2026.aclweb.org/)
 [![GitHub Stars](https://img.shields.io/github/stars/zhuyjan/WikiSeeker?style=social)](https://github.com/zhuyjan/WikiSeeker/stargazers)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## 🔍 Overview
 <p align="center"><img src="figures/pipeline.png" alt="method" width="1000px" /></p>
