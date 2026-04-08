@@ -21,4 +21,4 @@ We introduce WikiSeeker, a novel multi-modal RAG framework that bridges these ga
 - [ ] Release the RL training code for Refiner.
 
 ## 🧭 Acknowledgements
-Our code is built upon [EchoSight](https://github.com/Go2Heart/EchoSight) and [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval). Thanks for their great work.s
+Our code is built upon [EchoSight](https://github.com/Go2Heart/EchoSight) and [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval). Thanks for their great work.
