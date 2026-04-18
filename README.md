@@ -17,7 +17,7 @@ We introduce WikiSeeker, a novel multi-modal RAG framework that bridges these ga
 ## 🎯 Todo List
 - [x] Release paper on Arxiv.
 - [x] Publish the details of dataset processing.
-- [ ] Release the multi-modal retrieval code along with the corresponding knowledge base.
+- [x] Release the multi-modal retrieval code along with the corresponding knowledge base.
 - [ ] Release the RL training code for Refiner.
 
 ## Data Preparation
@@ -28,6 +28,19 @@ You can refer to the [EchoSight](https://github.com/Go2Heart/EchoSight) VQA Ques
 2. Following the [OMGM](https://github.com/ChaoLinAViy/OMGM) procedure, all images from the iNaturalist train and val sets have been reconstructed and converted to the `id.jpg` format, all stored in a single path (eliminating the need for `id2name` mapping).
 3. For the [Google Landmarks Dataset V2](https://github.com/cvdfoundation/google-landmark), ensure you download the **train set** (499 tar files), **not the test set** mistakenly mentioned in the EchoSight documentation.
 4. As for the [oven_images](https://huggingface.co/datasets/ychenNLP/oven/tree/main), decompress the 8 tar files and consolidate all images into the `oven_imgs` directory.
+
+After setting up all datasets, please update the respective dataset paths in `utils/utils.py`.
+
+## Launch Retriever Service 
+You can download the necessary multi-modal kb `eva_qwen3_faiss_index` from our [HF Repo](https://huggingface.co/datasets/i2plus/WikiSeeker-Data/tree/main) to start the service.
+```
+bash scripts/start_retriever_service.sh
+```
+
+## Multi-modal Retrieval
+```
+bash scripts/run_retrieval.sh
+```
 
 ## 📚 Citation
 If you find our work useful, please give us a star 🌟 and use the following BibTeX entry for citation.
